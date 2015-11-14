@@ -27,10 +27,5 @@ namespace Learn_and_Loot
             
         }
 
-
-        public void changeFrame(Frame frame)
-        {
-
-        }
     }
 }
