@@ -16,23 +16,13 @@ using System.Windows.Shapes;
 namespace Learn_and_Loot
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for InstructorRegistration.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class InstructorRegistration : Page
     {
-        public MainWindow()
+        public InstructorRegistration()
         {
             InitializeComponent();
-            MainFrame.Content = new GetStartedButtonPage(MainFrame);
-            
         }
-
-        private void btn_Home_Click(object sender, RoutedEventArgs e)
-        {
-            MainFrame.Content = new GetStartedButtonPage(MainFrame);
-        }
-
-
-
     }
 }
