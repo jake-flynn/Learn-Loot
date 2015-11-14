@@ -23,6 +23,14 @@ namespace Learn_and_Loot
         public MainWindow()
         {
             InitializeComponent();
+            MainFrame.Content = new GetStartedButtonPage(MainFrame);
+            
+        }
+
+
+        public void changeFrame(Frame frame)
+        {
+
         }
     }
 }
