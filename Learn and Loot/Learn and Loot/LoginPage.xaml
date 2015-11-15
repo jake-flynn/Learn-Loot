@@ -1,0 +1,14 @@
+﻿<Page x:Class="Learn_and_Loot.LoginPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="520" d:DesignWidth="1002"
+	Title="LoginPage">
+
+    <Grid>
+        <Button x:Name="btn_StudentLogin" Content="Login As Student..." HorizontalAlignment="Left" Margin="200,124,0,0" VerticalAlignment="Top" Height="100" Width="175" Click="btn_StudentLogin_Click"/>
+        <Button x:Name="btn_InstructorLogin" Content="Login As Instructor..." Margin="0,124,200,0" VerticalAlignment="Top" Height="100" HorizontalAlignment="Right" Width="175" Click="btn_InstructorLogin_Click"/>
+    </Grid>
+</Page>

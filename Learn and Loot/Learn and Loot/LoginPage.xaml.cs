@@ -16,28 +16,29 @@ using System.Windows.Shapes;
 namespace Learn_and_Loot
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for LoginPage.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class LoginPage : Page
     {
-        public MainWindow()
+        private Frame mFrame; 
+        public LoginPage()
         {
             InitializeComponent();
-            MainFrame.Content = new GetStartedButtonPage(MainFrame);
-            
         }
-
-        private void btn_Home_Click(object sender, RoutedEventArgs e)
+        public LoginPage(Frame frame)
         {
-            MainFrame.Content = new GetStartedButtonPage(MainFrame);
+            InitializeComponent();
+            mFrame = frame;
         }
 
-        private void btn_Login_Click(object sender, RoutedEventArgs e)
+        private void btn_StudentLogin_Click(object sender, RoutedEventArgs e)
         {
-            MainFrame.Content = new LoginPage(MainFrame); 
+            mFrame.Content = new StudentLoginPage(mFrame);
         }
 
-
-
+        private void btn_InstructorLogin_Click(object sender, RoutedEventArgs e)
+        {
+            mFrame.Content = new InstructorLoginPage(mFrame);
+        }
     }
 }
