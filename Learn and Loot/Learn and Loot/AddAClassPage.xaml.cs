@@ -23,6 +23,13 @@ namespace Learn_and_Loot
         public AddAClassPage()
         {
             InitializeComponent();
+            AddCategories();
+        }
+
+        public static void AddCategories()
+        {
+
+
         }
     }
 }

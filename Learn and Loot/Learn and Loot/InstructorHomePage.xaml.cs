@@ -24,5 +24,15 @@ namespace Learn_and_Loot
         {
             InitializeComponent();
         }
+
+        private void btn_ViewClass_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_AddClass_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
