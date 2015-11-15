@@ -36,6 +36,11 @@ namespace Learn_and_Loot
             MainFrame.Content = new GetStartedButtonPage(MainFrame);
         }
 
+        private void btn_Login_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Content = new LoginPage(MainFrame); 
+        }
+
 
 
     }
