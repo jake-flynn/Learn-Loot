@@ -53,8 +53,20 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="InstructorHomePage.xaml.cs">
+      <DependentUpon>InstructorHomePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="InstructorLoginPage.xaml.cs">
+      <DependentUpon>InstructorLoginPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="InstructorRegistration.xaml.cs">
       <DependentUpon>InstructorRegistration.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPage.xaml.cs">
+      <DependentUpon>LoginPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StudentLoginPage.xaml.cs">
+      <DependentUpon>StudentLoginPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="StudentRegistrationPage.xaml.cs">
       <DependentUpon>StudentRegistrationPage.xaml</DependentUpon>
@@ -67,7 +79,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="InstructorHomePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="InstructorLoginPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="InstructorRegistration.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LoginPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -89,6 +113,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="StudentLoginPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="StudentRegistrationPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
