@@ -4,10 +4,12 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       mc:Ignorable="d" 
-      d:DesignHeight="300" d:DesignWidth="300"
+      d:DesignHeight="520" d:DesignWidth="1002"
 	Title="AddAClassPage">
 
     <Grid>
-        
+        <ComboBox x:Name="cbo_Category" HorizontalAlignment="Left" Margin="119,131,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Category" HorizontalAlignment="Left" Margin="119,97,0,0" VerticalAlignment="Top"/>
+
     </Grid>
 </Page>
