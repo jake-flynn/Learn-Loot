@@ -8,7 +8,35 @@
 	Title="InstructorRegistration">
 
     <Grid>
-        <Canvas HorizontalAlignment="Right" Margin="0,50,50,50" Width="250" Background="#FFE02727"/>
+        <Canvas x:Name="canvas_instructor" HorizontalAlignment="Right" Margin="0,50,50,50" Width="250" Height="420" Background="#FFE02727"/>
+
+        <Label x:Name="lbl_fName" Content="First Name:" HorizontalAlignment="Left" Margin="70,28,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbx_firstName" HorizontalAlignment="Left" Height="23" Margin="184,28,0,0" TextWrapping="Wrap" Text="First Name" VerticalAlignment="Top" Width="180"/>
+
+        <Label x:Name="lbl_lName" Content="Last Name:" HorizontalAlignment="Left" Margin="70,82,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbx_lastName" HorizontalAlignment="Left" Height="23" Margin="184,82,0,0" TextWrapping="Wrap" Text="Last Name" VerticalAlignment="Top" Width="180"/>
+
+        <Label x:Name="lbl_Email" Content="Email:" HorizontalAlignment="Left" Margin="70,139,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbx_eamil" HorizontalAlignment="Left" Height="23" Margin="184,139,0,0" TextWrapping="Wrap" Text="Email" VerticalAlignment="Top" Width="180"/>
+
+        <Label x:Name="lbl_Address" Content="Street Address:" HorizontalAlignment="Left" Margin="70,191,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbx_Address" HorizontalAlignment="Left" Height="23" Margin="184,191,0,0" TextWrapping="Wrap" Text="Address" VerticalAlignment="Top" Width="180"/>
+
+        <Label x:Name="lbl_state" Content="State:" HorizontalAlignment="Left" Margin="70,243,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbx_state" HorizontalAlignment="Left" Height="23" Margin="184,243,0,0" TextWrapping="Wrap" Text="State" VerticalAlignment="Top" Width="180"/>
+
+        <Label x:Name="lbl_zip" Content="Zip:" HorizontalAlignment="Left" Margin="70,292,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbx_zip" HorizontalAlignment="Left" Height="23" Margin="184,292,0,0" TextWrapping="Wrap" Text="Zip" VerticalAlignment="Top" Width="180"/>
+
+        <Label x:Name="lbl_UserName" Content="User Name:" HorizontalAlignment="Left" Margin="70,347,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbx_userName" HorizontalAlignment="Left" Height="23" Margin="184,347,0,0" TextWrapping="Wrap" Text="User Name" VerticalAlignment="Top" Width="180"/>
+
+        <Label x:Name="lbl_password" Content="Password:" HorizontalAlignment="Left" Margin="70,397,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbx_password" HorizontalAlignment="Left" Height="23" Margin="184,397,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="180"/>
+        
+        <Label x:Name="lbl_passwordConfirm" Content="Confirm Password:" HorizontalAlignment="Left" Margin="70,447,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbx_passwordConfirm" HorizontalAlignment="Left" Height="23" Margin="184,447,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="180"/>
+
 
     </Grid>
 </Page>

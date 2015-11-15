@@ -24,6 +24,10 @@ namespace Learn_and_Loot
         {
             InitializeComponent();
             MainFrame.Content = new GetStartedButtonPage(MainFrame);
+            ImageBrush imgBrush = new ImageBrush();
+            BitmapImage image = new BitmapImage(new Uri(@"../../Images/Getting-Started-Page.jpg", UriKind.RelativeOrAbsolute));
+            imgBrush.ImageSource = image;
+            rec_background.Fill = imgBrush;
             
         }
 
