@@ -8,8 +8,8 @@
 	Title="createStudentOrInstructorPage">
 
     <Grid>
-        <Button x:Name="btn_Student" Content="Student" HorizontalAlignment="Left" Margin="200,124,0,0" VerticalAlignment="Top" Height="100" Width="175" Click="btn_Student_Click"/>
-        <Button x:Name="btn_Instructor" Content="Instructor" Margin="0,124,200,0" VerticalAlignment="Top" Height="100" HorizontalAlignment="Right" Width="175" Click="btn_Instructor_Click"/>
+        <Button x:Name="btn_Student" Content="Student" Margin="0,384,269,0" VerticalAlignment="Top" Height="100" Click="btn_Student_Click" HorizontalAlignment="Right" Width="175"/>
+        <Button x:Name="btn_Instructor" Content="Instructor" Margin="316,384,0,0" VerticalAlignment="Top" Height="100" Click="btn_Instructor_Click" HorizontalAlignment="Left" Width="175"/>
 
     </Grid>
 </Page>

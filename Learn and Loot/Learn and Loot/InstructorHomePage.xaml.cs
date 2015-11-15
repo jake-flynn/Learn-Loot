@@ -23,6 +23,7 @@ namespace Learn_and_Loot
         public InstructorHomePage()
         {
             InitializeComponent();
+            
         }
 
         private void btn_ViewClass_Click(object sender, RoutedEventArgs e)

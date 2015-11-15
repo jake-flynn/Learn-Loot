@@ -10,7 +10,7 @@
     <Grid>
         <Button x:Name="btn_AddClass" Content="Add A Class" HorizontalAlignment="Left" Margin="679,332,0,0" VerticalAlignment="Top" Width="175" Height="100" Click="btn_AddClass_Click"/>
         <Button x:Name="btn_ViewClass" Content="View My Classes" HorizontalAlignment="Left" Margin="221,332,0,0" VerticalAlignment="Top" Width="175" Height="100" Click="btn_ViewClass_Click"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="79,73,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbx_name" HorizontalAlignment="Left" Height="23" Margin="79,73,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </Page>

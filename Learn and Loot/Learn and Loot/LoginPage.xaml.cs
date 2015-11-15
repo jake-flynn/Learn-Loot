@@ -25,10 +25,14 @@ namespace Learn_and_Loot
         {
             InitializeComponent();
         }
-        public LoginPage(Frame frame)
+        public LoginPage(Frame frame, Rectangle rec_background)
         {
             InitializeComponent();
             mFrame = frame;
+            ImageBrush imgBrush = new ImageBrush();
+            BitmapImage image = new BitmapImage(new Uri(@"../../Images/LogIn.jpg", UriKind.RelativeOrAbsolute));
+            imgBrush.ImageSource = image;
+            rec_background.Fill = imgBrush;
         }
 
         private void btn_StudentLogin_Click(object sender, RoutedEventArgs e)

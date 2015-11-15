@@ -21,22 +21,29 @@ namespace Learn_and_Loot
     public partial class GetStartedButtonPage : Page
     {
         private Frame mFrame;
+        private Rectangle rec_background;
 
         public GetStartedButtonPage()
         {
             InitializeComponent();
         }
 
-        public GetStartedButtonPage(Frame frame)
+        public GetStartedButtonPage(Frame frame, Rectangle rec_background)
         {
             InitializeComponent();
             mFrame = frame;
+            ImageBrush imgBrush = new ImageBrush();
+            BitmapImage image = new BitmapImage(new Uri(@"../../Images/Home.jpg", UriKind.RelativeOrAbsolute));
+            imgBrush.ImageSource = image;
+            rec_background.Fill = imgBrush;
+            this.rec_background = rec_background;
+            
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             //mFrame.Content = new TestPage();   
-            mFrame.Content = new createStudentOrInstructorPage(mFrame);
+            mFrame.Content = new createStudentOrInstructorPage(mFrame, rec_background);
         }
 
        

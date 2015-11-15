@@ -8,7 +8,7 @@
 	Title="LoginPage">
 
     <Grid>
-        <Button x:Name="btn_StudentLogin" Content="Login As Student..." HorizontalAlignment="Left" Margin="200,124,0,0" VerticalAlignment="Top" Height="100" Width="175" Click="btn_StudentLogin_Click"/>
-        <Button x:Name="btn_InstructorLogin" Content="Login As Instructor..." Margin="0,124,200,0" VerticalAlignment="Top" Height="100" HorizontalAlignment="Right" Width="175" Click="btn_InstructorLogin_Click"/>
+        <Button x:Name="btn_StudentLogin" Content="Login As Student..." HorizontalAlignment="Left" Margin="657,146,0,0" VerticalAlignment="Top" Height="100" Width="175" Click="btn_StudentLogin_Click"/>
+        <Button x:Name="btn_InstructorLogin" Content="Login As Instructor..." Margin="0,146,645,0" VerticalAlignment="Top" Height="100" HorizontalAlignment="Right" Width="175" Click="btn_InstructorLogin_Click"/>
     </Grid>
 </Page>

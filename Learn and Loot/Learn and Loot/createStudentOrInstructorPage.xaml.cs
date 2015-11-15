@@ -21,16 +21,22 @@ namespace Learn_and_Loot
     public partial class createStudentOrInstructorPage : Page
     {
         private Frame mFrame;
+        private Rectangle rec_background;
 
         public createStudentOrInstructorPage()
         {
             InitializeComponent();
         }
 
-        public createStudentOrInstructorPage(Frame frame)
+        public createStudentOrInstructorPage(Frame frame, Rectangle rec_background)
         {
             InitializeComponent();
             mFrame = frame;
+            this.rec_background = rec_background;
+            ImageBrush imgBrush = new ImageBrush();
+            BitmapImage image = new BitmapImage(new Uri(@"../../Images/SignUp.jpg", UriKind.RelativeOrAbsolute));
+            imgBrush.ImageSource = image;
+            rec_background.Fill = imgBrush;
         }
 
         private void btn_Student_Click(object sender, RoutedEventArgs e)

@@ -23,22 +23,24 @@ namespace Learn_and_Loot
         public MainWindow()
         {
             InitializeComponent();
-            MainFrame.Content = new GetStartedButtonPage(MainFrame);
+            MainFrame.Content = new GetStartedButtonPage(MainFrame, rec_background);
             ImageBrush imgBrush = new ImageBrush();
-            BitmapImage image = new BitmapImage(new Uri(@"../../Images/Getting-Started-Page.jpg", UriKind.RelativeOrAbsolute));
+            BitmapImage image = new BitmapImage(new Uri(@"../../Images/Home.jpg", UriKind.RelativeOrAbsolute));
             imgBrush.ImageSource = image;
             rec_background.Fill = imgBrush;
+            
             
         }
 
         private void btn_Home_Click(object sender, RoutedEventArgs e)
         {
-            MainFrame.Content = new GetStartedButtonPage(MainFrame);
+            MainFrame.Content = new GetStartedButtonPage(MainFrame, rec_background);
+            
         }
 
         private void btn_Login_Click(object sender, RoutedEventArgs e)
         {
-            MainFrame.Content = new LoginPage(MainFrame); 
+            MainFrame.Content = new LoginPage(MainFrame, rec_background); 
         }
 
 

@@ -8,7 +8,7 @@
 	Title="GetStartedButtonPage">
 
     <Grid>
-        <Button x:Name="btn_getStarted" Content="Get Started" Margin="371,366,371,0" Opacity="100" VerticalAlignment="Top" Click="Button_Click" Height="56"/>
+        <Button x:Name="btn_getStarted" Content="Get Started" Margin="0,321,155,0" Opacity="0" VerticalAlignment="Top" Click="Button_Click" Height="56" HorizontalAlignment="Right" Width="314"/>
 
     </Grid>
 </Page>
