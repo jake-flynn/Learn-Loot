@@ -53,6 +53,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AddAClassPage.xaml.cs">
+      <DependentUpon>AddAClassPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="InstructorHomePage.xaml.cs">
       <DependentUpon>InstructorHomePage.xaml</DependentUpon>
     </Compile>
@@ -71,6 +74,10 @@
     <Compile Include="StudentRegistrationPage.xaml.cs">
       <DependentUpon>StudentRegistrationPage.xaml</DependentUpon>
     </Compile>
+    <Page Include="AddAClassPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="createStudentOrInstructorPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
